@@ -1,0 +1,24 @@
+<!-- Form to retrieve arguments for a maximum number with which to add all the numbers before it.
+Example: max number is 5, add 1+2+3+4+5 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sum Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+<input type="number" id="maxNum" value=0 </input>
+<label for=id="maxNum">Enter a positive maximum number</label>
+<br>
+<input type="submit" id="submit" value = "Calculate sum"</input>
+<p id = "resultMsg">Result with max of <span id = "resultMaxNum"> </span> = <span id = "resultNum"> </span></p>
+<p id = "errorMsg" >Enter a positive number</p>
+
+<!-- Javascript files -->
+<script type="text/javascript" src='logic.js'></script>
+<script type="text/javascript" src='app.js'></script>
+</body>
+</html>
